@@ -45,26 +45,3 @@ if __name__ == '__main__':
     exercise_3(name, surname, born)
     exercise_4(name, surname)
     exercise_5(born)
-
-
-    '''
-    ADULT = 18
-    date = datetime.now().year
-
-    name = str(input("Enter your name: "))
-    surname = str(input("Enter your surname: "))
-    born = int(input("Enter your year of born: "))
-    age = date - born
-    print(f"Hello, {name.upper()} {surname.upper()}, {age} yo. \n Length of surname is {name.__len__()}\n Length of surname is {surname.__len__()}")
-
-    print("Female" if name[-1] == 'a'else 'Male')
-
-    adulthood = abs(age - ADULT)
-    if age < 18:
-        print(f"You are child. \nYou'll be an adult in {adulthood} years")
-    elif age > 18:
-        print(f"You are adult since {adulthood} years")
-    else: print(f"You are an adult since this year")
-'''
-
-
